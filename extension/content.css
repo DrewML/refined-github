@@ -266,3 +266,42 @@ svg.octicon.octicon-star.dashboard-event-icon {
 .page-profile .member-badge {
 	display: none !important;
 }
+
+/* fade out merge commits from commit list */
+.refined-github-merge-commit .avatar {
+	opacity: 0.6 !important;
+	height: 24px !important;
+	width: 24px !important;
+	margin-left: 6px !important;
+	margin-top: 6px !important;
+}
+
+.refined-github-merge-commit .commit-title {
+	font-size: 12px !important;
+	margin-top: 3px !important;
+}
+
+.refined-github-merge-commit .message {
+	color: #75848a !important;
+}
+
+.refined-github-merge-commit .commit-title .issue-link,
+.refined-github-merge-commit .btn-outline {
+	color: #9fbbdf !important;
+}
+
+.refined-github-merge-commit .btn-outline:hover {
+	color: #fff !important;
+	background-color: #9fbbdf !important;
+	border-color: #9fbbdf !important;
+}
+
+.refined-github-merge-commit .commit-author,
+.refined-github-merge-commit .commit-author-section {
+	color: #909090 !important;
+}
+
+.refined-github-merge-commit .ellipsis-expander {
+	color: #808080 !important;
+	background: #f0f0f0 !important;
+}
